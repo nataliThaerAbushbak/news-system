@@ -1,0 +1,11 @@
+
+
+.cat-grid{display:grid; grid-template-columns:1.2fr 2fr; gap:16px}
+@media(max-width:900px){.cat-grid{grid-template-columns:1fr}}
+
+.cat-form .card{display:grid; gap:10px}
+.cat-list .item{
+  background:#fff; border:1px solid #ffd6e3; border-radius:14px; padding:10px 12px;
+  display:flex; align-items:center; justify-content:space-between; box-shadow:var(--shadow); margin-bottom:10px
+}
+.cat-list .item .name{font-weight:800}
